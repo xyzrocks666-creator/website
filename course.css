@@ -1,0 +1,500 @@
+  
+  
+  /* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+  
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#1e3c72,#2a5298);
+    color:#fff;
+    padding:30px;
+}
+
+header{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+header h1{
+    font-size:40px;
+    color:#fff;
+    text-transform:uppercase;
+    letter-spacing:2px;
+}
+
+hr{
+    border:none;
+    height:2px;
+    background:#ffffff33;
+    margin:30px 0;
+}
+
+div:first-child{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+a{
+    text-decoration:none;
+    color:#00e5ff;
+    font-weight:600;
+    transition:.3s;
+}
+
+a:hover{
+    color:#fff;
+}
+
+main{
+    max-width:1100px;
+    margin:auto;
+}
+
+main > div > div{
+    background:#ffffff15;
+    backdrop-filter:blur(12px);
+    border-radius:15px;
+    padding:25px;
+    margin-bottom:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.3);
+}
+
+h2{
+    color:#ffdd57;
+    margin-bottom:15px;
+}
+
+h3{
+    margin-bottom:15px;
+}
+
+ol{
+    padding-left:25px;
+}
+
+li{
+    background:#ffffff12;
+    margin:12px 0;
+    padding:15px;
+    border-radius:10px;
+    transition:.3s;
+    list-style-position:inside;
+}
+
+li:hover{
+    transform:translateX(8px);
+    background:#ffffff25;
+}
+
+li a{
+    float:right;
+    background:#00c853;
+    color:#fff;
+    padding:8px 18px;
+    border-radius:25px;
+}
+
+li a:hover{
+    background:#009624;
+}
+
+h1{
+    text-align:center;
+}
+
+h1:last-child{
+    color:#ff5252;
+}
+
+@media(max-width:768px){
+
+body{
+    padding:15px;
+}
+
+header h1{
+    font-size:28px;
+}
+
+li{
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+}
+
+li a{
+    float:none;
+    width:150px;
+    text-align:center;
+}
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========================================
+   RESET
+======================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ========================================
+   BODY
+======================================== */
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+
+    background:
+        linear-gradient(
+            135deg,
+            #eef4ff,
+            #f8fafc
+        );
+
+    color: #1e293b;
+
+    min-height: 100vh;
+}
+
+
+/* ========================================
+   HEADER
+======================================== */
+
+header {
+    width: 92%;
+    max-width: 1100px;
+
+    margin: 30px auto;
+
+    padding: 25px 35px;
+
+    background: white;
+
+    border-radius: 18px;
+
+    box-shadow:
+        0 10px 35px rgba(15, 23, 42, 0.10);
+}
+
+
+/* ========================================
+   HOME BUTTON
+======================================== */
+
+header > div:first-child {
+    font-size: 16px;
+
+    font-weight: 600;
+
+    color: #334155;
+}
+
+
+header > div:first-child a {
+    display: inline-block;
+
+    margin-left: 10px;
+
+    padding: 8px 20px;
+
+    background: #2563eb;
+
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 8px;
+
+    transition: all 0.3s ease;
+}
+
+
+header > div:first-child a:hover {
+    background: #1d4ed8;
+
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 6px 15px rgba(37, 99, 235, 0.3);
+}
+
+
+/* ========================================
+   PAGE TITLE
+======================================== */
+
+header > div:nth-of-type(2) {
+    text-align: center;
+}
+
+
+header > div:nth-of-type(2) > div > h1 {
+    font-size: 42px;
+
+    color: #0f172a;
+
+    letter-spacing: 1px;
+
+    margin: 10px 0;
+}
+
+
+/* ========================================
+   YEAR SECTIONS
+======================================== */
+
+header > div:nth-of-type(2) > div > div {
+    margin-top: 25px;
+}
+
+
+/* Year title */
+
+header h2 {
+    display: inline-block;
+
+    padding: 10px 20px;
+
+    color: #1e40af;
+
+    background: #eff6ff;
+
+    border-left: 5px solid #2563eb;
+
+    border-radius: 8px;
+
+    font-size: 24px;
+}
+
+
+/* ========================================
+   SUBJECT LIST
+======================================== */
+
+ol {
+    margin-top: 20px;
+
+    padding-left: 0;
+
+    list-style: none;
+
+    counter-reset: subject;
+}
+
+
+ol li {
+    counter-increment: subject;
+
+    position: relative;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 15px;
+
+    margin: 12px 0;
+
+    padding: 16px 20px 16px 55px;
+
+    background: #f8fafc;
+
+    border: 1px solid #e2e8f0;
+
+    border-radius: 12px;
+
+    font-size: 16px;
+
+    font-weight: 600;
+
+    transition: all 0.3s ease;
+}
+
+
+/* Number */
+
+ol li::before {
+    content: counter(subject);
+
+    position: absolute;
+
+    left: 15px;
+
+    width: 28px;
+    height: 28px;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    background: #2563eb;
+
+    color: white;
+
+    border-radius: 50%;
+
+    font-size: 13px;
+}
+
+
+/* Hover */
+
+ol li:hover {
+    background: white;
+
+    border-color: #60a5fa;
+
+    transform: translateX(5px);
+
+    box-shadow:
+        0 8px 20px rgba(37, 99, 235, 0.12);
+}
+
+
+/* ========================================
+   PDF / NOTES LINKS
+======================================== */
+
+ol li a {
+    flex-shrink: 0;
+
+    padding: 7px 16px;
+
+    background: #2563eb;
+
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 7px;
+
+    font-size: 13px;
+
+    font-weight: 600;
+
+    transition: all 0.3s ease;
+}
+
+
+ol li a:hover {
+    background: #1e40af;
+
+    box-shadow:
+        0 5px 12px rgba(37, 99, 235, 0.3);
+}
+
+
+/* ========================================
+   DATA NOT FOUND
+======================================== */
+
+ol li:only-child {
+    color: #64748b;
+
+    background: #f8fafc;
+
+    border: 1px dashed #cbd5e1;
+
+    justify-content: center;
+}
+
+
+/* ========================================
+   HORIZONTAL LINES
+======================================== */
+
+hr {
+    border: none;
+
+    height: 2px;
+
+    margin: 25px 0;
+
+    background:
+        linear-gradient(
+            90deg,
+            transparent,
+            #bfdbfe,
+            #2563eb,
+            #bfdbfe,
+            transparent
+        );
+}
+
+
+/* ========================================
+   MOBILE RESPONSIVE
+======================================== */
+
+@media (max-width: 650px) {
+
+    header {
+        width: 94%;
+
+        padding: 20px 15px;
+
+        margin: 15px auto;
+    }
+
+
+    header > div:nth-of-type(2) > div > h1 {
+        font-size: 32px;
+    }
+
+
+    header h2 {
+        font-size: 20px;
+
+        padding: 9px 15px;
+    }
+
+
+    ol li {
+        align-items: flex-start;
+
+        flex-direction: column;
+
+        padding: 15px 15px 15px 50px;
+    }
+
+
+    ol li a {
+        margin-top: 5px;
+    }
+
+
+    header > div:first-child {
+        font-size: 14px;
+    }
+
+
+    header > div:first-child a {
+        padding: 7px 15px;
+    }
+}

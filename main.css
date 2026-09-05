@@ -1,0 +1,206 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f7fc;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #0d6efd;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+/* Main */
+main {
+    width: 80%;
+    margin: 30px auto;
+}
+
+/* Navigation */
+section h2 {
+    margin: 15px 0;
+}
+
+section h2 a {
+    display: block;
+    background: white;
+    color: #0d6efd;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+section h2 a:hover {
+    background: #0d6efd;
+    color: white;
+    transform: scale(1.03);
+}
+
+/* Divider */
+hr {
+    margin: 35px 0;
+}
+
+/* Free Course Section */
+ol {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+ol li {
+    margin: 15px 0;
+    font-size: 20px;
+}
+
+ol li a {
+    color: #0d6efd;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ol li a:hover {
+    color: #ff6600;
+    text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    main {
+        width: 95%;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    section h2 a {
+        font-size: 18px;
+    }
+}
+#login {
+    margin-top: 30px;
+
+    padding: 13px 35px;
+
+    border: none;
+    border-radius: 12px;
+
+    background: linear-gradient(135deg, #6366f1, #8b5cf6);
+
+    color: white;
+
+    font-size: 17px;
+    font-weight: 700;
+
+    letter-spacing: 0.5px;
+
+    cursor: pointer;
+
+    box-shadow:
+        0 8px 25px rgba(99, 102, 241, 0.4);
+
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+
+
+/* add picture deatial */
+
+/* Senior Details Section */
+.picture {
+    width: 90%;
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 35px;
+
+    text-align: center;
+
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 20px;
+
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* Heading */
+.picture h1 {
+    position: static;
+    margin-bottom: 30px;
+
+    color: #333;
+    font-size: 32px;
+    font-weight: 700;
+
+    text-transform: capitalize;
+    letter-spacing: 1px;
+
+    text-shadow: none;
+}
+
+/* Images */
+.picture img {
+    width: 260px;
+    height: 320px;
+
+    margin: 15px;
+    padding: 6px;
+
+    object-fit: cover;
+
+    border-radius: 15px;
+
+    background: white;
+
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.18);
+
+    transition: all 0.4s ease;
+}
+
+/* Image Hover */
+.picture img:hover {
+    transform: translateY(-10px) scale(1.03);
+
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+
+    .picture {
+        width: 92%;
+        padding: 25px 15px;
+    }
+
+    .picture h1 {
+        font-size: 26px;
+    }
+
+    .picture img {
+        width: 90%;
+        max-width: 280px;
+        height: 330px;
+
+        margin: 10px 0;
+    }
+}
