@@ -148,9 +148,7 @@ li a{
 
 
 
-/* ========================================
-   RESET
-======================================== */
+/* second style */
 
 * {
     margin: 0;
@@ -159,9 +157,6 @@ li a{
 }
 
 
-/* ========================================
-   BODY
-======================================== */
 
 body {
     font-family: "Segoe UI", Arial, sans-serif;
@@ -179,9 +174,7 @@ body {
 }
 
 
-/* ========================================
-   HEADER
-======================================== */
+
 
 header {
     width: 92%;
@@ -200,9 +193,7 @@ header {
 }
 
 
-/* ========================================
-   HOME BUTTON
-======================================== */
+
 
 header > div:first-child {
     font-size: 16px;
@@ -242,9 +233,7 @@ header > div:first-child a:hover {
 }
 
 
-/* ========================================
-   PAGE TITLE
-======================================== */
+
 
 header > div:nth-of-type(2) {
     text-align: center;
@@ -290,11 +279,11 @@ header h2 {
 }
 
 
-/* ========================================
-   SUBJECT LIST
-======================================== */
 
-ol {
+   /* SUBJECT LIST */
+
+
+ul {
     margin-top: 20px;
 
     padding-left: 0;
@@ -305,7 +294,7 @@ ol {
 }
 
 
-ol li {
+ul li {
     counter-increment: subject;
 
     position: relative;
@@ -338,7 +327,7 @@ ol li {
 
 /* Number */
 
-ol li::before {
+ul li::before {
     content: counter(subject);
 
     position: absolute;
@@ -365,7 +354,7 @@ ol li::before {
 
 /* Hover */
 
-ol li:hover {
+ul li:hover {
     background: white;
 
     border-color: #60a5fa;
@@ -377,11 +366,10 @@ ol li:hover {
 }
 
 
-/* ========================================
-   PDF / NOTES LINKS
-======================================== */
+   /* PDF / NOTES LINKS
+ */
 
-ol li a {
+ul li a {
     flex-shrink: 0;
 
     padding: 7px 16px;
@@ -402,7 +390,7 @@ ol li a {
 }
 
 
-ol li a:hover {
+ul li a:hover {
     background: #1e40af;
 
     box-shadow:
@@ -410,11 +398,9 @@ ol li a:hover {
 }
 
 
-/* ========================================
-   DATA NOT FOUND
-======================================== */
 
-ol li:only-child {
+
+ul li:only-child {
     color: #64748b;
 
     background: #f8fafc;
@@ -425,9 +411,7 @@ ol li:only-child {
 }
 
 
-/* ========================================
-   HORIZONTAL LINES
-======================================== */
+
 
 hr {
     border: none;
@@ -448,9 +432,7 @@ hr {
 }
 
 
-/* ========================================
-   MOBILE RESPONSIVE
-======================================== */
+
 
 @media (max-width: 650px) {
 
@@ -475,7 +457,7 @@ hr {
     }
 
 
-    ol li {
+    ul li {
         align-items: flex-start;
 
         flex-direction: column;
@@ -484,7 +466,7 @@ hr {
     }
 
 
-    ol li a {
+    ul li a {
         margin-top: 5px;
     }
 
