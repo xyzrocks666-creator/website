@@ -1,7 +1,5 @@
 
-/* =========================
-   RESET
-========================= */
+
 
 * {
     margin: 0;
@@ -16,9 +14,7 @@ body {
 }
 
 
-/* =========================
-   HEADER
-========================= */
+
 
 header {
     background: linear-gradient(135deg, #0f172a, #1e40af);
@@ -26,7 +22,7 @@ header {
     color: white;
 }
 
-/* Home link */
+
 
 header h3 {
     font-size: 16px;
@@ -53,7 +49,6 @@ header a:hover {
 }
 
 
-/* Header title */
 
 header h1 {
     text-align: center;
@@ -66,9 +61,6 @@ header h1 {
 }
 
 
-/* =========================
-   HORIZONTAL LINE
-========================= */
 
 hr {
     border: none;
@@ -83,9 +75,7 @@ hr {
 }
 
 
-/* =========================
-   MAIN
-========================= */
+
 
 main {
     width: 90%;
@@ -94,7 +84,7 @@ main {
 }
 
 
-/* About Developers heading */
+
 
 main > div:first-child {
     text-align: center;
@@ -106,14 +96,7 @@ main > div:first-child h1 {
 }
 
 
-/* =========================
-   DEVELOPER INFORMATION
-========================= */
 
-/*
-   Your developer information is inside
-   the second main div.
-*/
 
 main > div:nth-of-type(2) {
     background: white;
@@ -126,8 +109,6 @@ main > div:nth-of-type(2) {
         0 10px 35px rgba(15, 23, 42, 0.10);
 }
 
-
-/* Developer role */
 
 main > div:nth-of-type(2) h3 {
     display: inline-block;
@@ -149,7 +130,7 @@ main > div:nth-of-type(2) h3 {
 }
 
 
-/* Developer name */
+
 
 name {
     display: block;
@@ -163,7 +144,7 @@ name {
 }
 
 
-/* Education */
+
 
 education {
     display: block;
@@ -176,9 +157,7 @@ education {
 }
 
 
-/* =========================
-   CONTACT
-========================= */
+/* contact */
 
 main > div:nth-of-type(3) {
     margin-top: 35px;
@@ -220,9 +199,7 @@ email {
 }
 
 
-/* =========================
-   DEVELOPER PHOTOS
-========================= */
+
 
 main > div:nth-of-type(4) {
     margin-top: 45px;
@@ -285,9 +262,7 @@ main > div:nth-of-type(4) > div:hover img {
 }
 
 
-/* =========================
-   MOBILE
-========================= */
+
 
 @media (max-width: 600px) {
 
