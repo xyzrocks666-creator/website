@@ -60,19 +60,19 @@ hr {
 }
 
 /* Free Course Section */
-ol {
+ul {
     background: white;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-ol li {
+ul li {
     margin: 15px 0;
     font-size: 20px;
 }
 
-ol li a {
+ul li a {
      display: block;
     background: white;
     color: #0d6efd;
@@ -84,7 +84,7 @@ ol li a {
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-ol li a:hover {
+ul li a:hover {
     background: #0d6efd;
     color: white;
     transform: scale(1.03);
