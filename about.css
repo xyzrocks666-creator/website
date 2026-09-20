@@ -208,6 +208,8 @@ main > div:nth-of-type(3) h2 {
 
 mobile,
 email {
+   backgroud-color: red ;
+   
     display: block;
 
     margin: 10px;
