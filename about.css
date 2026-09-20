@@ -166,7 +166,7 @@ main > div:nth-of-type(3) {
 
     text-align: center;
 
-    background: #0f172a;
+    background:  rgb(72, 51, 111);
 
     color: white;
 
@@ -187,7 +187,7 @@ main > div:nth-of-type(3) h2 {
 
 mobile,
 email {
-   backgroud-color: red ;
+   
    
     display: block;
 
@@ -197,7 +197,7 @@ email {
 
     font-size: 16px;
 }
-#cbd5e1
+
 
 
 
