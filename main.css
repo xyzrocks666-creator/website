@@ -81,7 +81,9 @@ ul {
 ul li {
     margin: 15px 0;
     font-size: 20px;
-    color: aliceblue;
+    color: white;
+    background: white;
+
 }
 
 ul li a {
