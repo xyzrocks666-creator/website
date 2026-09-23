@@ -57,6 +57,71 @@ section h2 a:hover {
     color: white;
     transform: scale(1.03);
 }
+.main {
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+    padding: 0px 50px;
+}
+
+.little{
+    width: 100%;
+    max-width: 800px;
+    padding: 18px 1px;
+    background: #ffffff;
+   
+    border-right: 5px solid #efe6e6;
+    border-radius: 100px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.10);
+
+    font-size: 17px;
+    font-weight: 600;
+    color: #1e293b;
+
+    transition: all 0.3s ease;
+}
+
+
+/* .little:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+} */
+.little span{
+   
+    padding: 18px 25px;
+    background: #5117cf;
+   
+    border-right: 5px solid #5f1717;
+    border-radius: 100px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.10);
+
+    font-size: 18px;
+    font-weight: 600;
+    color: #eaeef4;
+
+    transition: all 0.3s ease;
+
+    
+    
+    
+}
+.btn{
+     width: 12%;
+    height: 120%;
+   
+     color: rgb(241, 236, 236);
+    background-color: green;
+     border: 10px;
+     padding: 3px 15px;
+     border-radius: 100px;
+}
+.btn:hover{
+    background: blue;
+    color: white;
+     transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
 
 /* Divider */
 hr {
